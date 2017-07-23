@@ -24,7 +24,7 @@ nav {
 nav ul {
   float: left;
 }
-a img{
+.dropbtn img{
   padding-top: 15px;
 }
 h1{
@@ -59,15 +59,6 @@ h1{
 div.menu ul{
     list-style-type: none;
 }
-h4{
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  /*color: #2EFEC8;*/
-  color: black;
-  font-size: 50px;
-  font-family: 'Quicksand', sans-serif;
-  }
 }
 
 @media (min-width: 951px) {
@@ -121,6 +112,16 @@ h4{
     text-align: right;
   }
 }
+
+h4{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  /*color: #2EFEC8;*/
+  color: black;
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  }
 
 .circle {
   z-index: 1;
@@ -188,8 +189,8 @@ h4{
   width: 100px;
   border-radius: 100%;
   margin-left: 65%;
-  margin-bottom: 500px;
-  position: absolute;
+  margin-bottom: 100px;
+  position: relative;
   /* width and height can be anything, as long as they're equal */
 }
 .text {
@@ -299,6 +300,10 @@ h6{
 
 .contact a{
   padding-left: 15%;
+}
+
+.contact img{
+  padding-top: 30px;
 }
 
 .contact{
